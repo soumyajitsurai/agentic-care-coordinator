@@ -44,5 +44,5 @@ Calendar/Scheduling APIs (e.g., Google Calendar, Outlook)
 
 
 ## Process flow diagram
-
+![Agent Diagram](https://github.com/soumyajitsurai/agentic-care-coordinator/blob/main/agentic%20care%20coordinator%20image.png)
 
