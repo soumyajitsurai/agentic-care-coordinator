@@ -1,4 +1,4 @@
-# agentic-care-coordinator
+# Agentic-Care-Coordinator
 Agentic Care Coordinator - Simple Agent Network
 -------------------------------------------------------------------------------------
 Requirement Description: Agentic Care Coordinator
