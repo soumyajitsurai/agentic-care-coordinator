@@ -47,3 +47,10 @@ Calendar/Scheduling APIs (e.g., Google Calendar, Outlook)
 ![Agent Diagram](https://github.com/soumyajitsurai/agentic-care-coordinator/blob/main/agentic%20care%20coordinator%20image.png)
 
 #### Note: To run the code in Google Colab - Create Secret with OPENAI_API_KEY
+
+## Suggested Feature Enhancements
+*  Patient Risk Scoring - Add ML-based triage score using medical thresholds
+*  Appointment Integration - Auto-scheduling via EHR or calendar API
+*  Persistent Storage - Store summaries in a NoSQL DB (e.g., MongoDB or Firebase)
+*  Multi-Agent System - Split GPT roles using LangGraph or CrewAI
+*  HIPAA Compliance - Mask PHI and route through secure proxies
