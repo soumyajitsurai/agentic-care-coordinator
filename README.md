@@ -1,14 +1,14 @@
 # Agentic-Care-Coordinator
 Agentic Care Coordinator - Simple Agent Network
 -------------------------------------------------------------------------------------
-Requirement Description: Agentic Care Coordinator
+## Requirement Description: Agentic Care Coordinator
 Project Title:
 Agentic Care Coordinator AI-powered Clinical Workflow Assistant
 
-Overview:
+## Overview:
 The Agentic Care Coordinator is an AI-driven assistant designed to streamline the care coordination process across fragmented healthcare systems. It autonomously integrates patient data from multiple sources, identifies care gaps, and generates actionable messages for healthcare providers and patients using natural language capabilities powered by OpenAI’s GPT.
 
-Goals and Objectives:
+## Goals and Objectives:
 Automate the aggregation and summarization of multi-source patient health data.
 Use a generative AI agent to identify care coordination issues such as overdue tests, unmanaged chronic conditions, and follow-up gaps.
 Generate professional, contextual messages for providers and simplified, patient-friendly messages for recipients.
@@ -24,13 +24,14 @@ Care Gap Detection • Identify: • Lack of scheduled appointments • High lab
 
 Communication Generator • Provider Messaging: • Formal tone • Medical risk framing • Action recommendations • Patient Messaging: • Layman-friendly • Encouraging tone • Clear instructions
 
-Non-Functional Requirements:
+## Non-Functional Requirements:
 Performance - API calls to GPT should respond within 2–5 seconds per request
 Security - Must not log or expose any PHI; use masked/demo data during dev
 Scalability - Modular agent architecture to support adding more roles (e.g., triage, scheduling)
 Availability -99.9% uptime (if deployed in production with a web UI or API)
 Compliance (Optional) - HIPAA-compliant backend for production deployment
-User Roles:
+
+## User Roles:
 Healthcare Provider - Review provider alerts/messages, act on recommendations
 Patient - Receive simplified instructions, schedule follow-ups
 Admin/Analyst - Monitor system performance, update GPT prompt templates
