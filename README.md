@@ -26,17 +26,18 @@ The Agentic Care Coordinator is an AI-driven assistant designed to streamline th
 5. Communication Generator • Provider Messaging: • Formal tone • Medical risk framing • Action recommendations • Patient Messaging: • Layman-friendly • Encouraging tone • Clear instructions
 
 ## Non-Functional Requirements:
-Performance - API calls to GPT should respond within 2–5 seconds per request
-Security - Must not log or expose any PHI; use masked/demo data during dev
-Scalability - Modular agent architecture to support adding more roles (e.g., triage, scheduling)
-Availability -99.9% uptime (if deployed in production with a web UI or API)
-Compliance (Optional) - HIPAA-compliant backend for production deployment
+*  Performance - API calls to GPT should respond within 2–5 seconds per request
+*  Security - Must not log or expose any PHI; use masked/demo data during dev
+*  Scalability - Modular agent architecture to support adding more roles (e.g., triage, scheduling)
+*  Availability -99.9% uptime (if deployed in production with a web UI or API)
+*  Compliance (Optional) - HIPAA-compliant backend for production deployment
 
 ## User Roles:
-Healthcare Provider - Review provider alerts/messages, act on recommendations
-Patient - Receive simplified instructions, schedule follow-ups
-Admin/Analyst - Monitor system performance, update GPT prompt templates
-Integration Points:
+*  Healthcare Provider - Review provider alerts/messages, act on recommendations
+*  Patient - Receive simplified instructions, schedule follow-ups
+*  Admin/Analyst - Monitor system performance, update GPT prompt templates
+
+##  Integration Points:
 OpenAI GPT-4 API
 Optional: EHR or FHIR-compliant systems (for real-time data ingestion)
 Calendar/Scheduling APIs (e.g., Google Calendar, Outlook)
